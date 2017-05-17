@@ -1,0 +1,8 @@
+.header-image{
+  background-image: url('../../assets/header.jpg');
+  background-size: cover;
+}
+
+.header-name{
+  font-size: 25px!important;
+}

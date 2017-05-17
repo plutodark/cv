@@ -1,0 +1,12 @@
+<div class="loginWrapper">
+  <md-card>
+    <md-card-title>Paul's CV login</md-card-title>
+    <md-card-content>
+    <input class="password form-control" type="password" id="password" placeholder="password" name="password" [(ngModel)]="password" (keyup.enter)="onLogin()" required>
+
+    </md-card-content>
+    <md-card-actions>
+      <button md-button (click)="onLogin()">Login</button>
+    </md-card-actions>
+  </md-card>
+</div>
