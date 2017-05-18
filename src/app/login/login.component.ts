@@ -16,7 +16,7 @@ export class LoginComponent implements OnInit {
   }
 
   onLogin() {
-    const connectionStr = `http://104.155.198.18:3000/${this.password}`;
+    const connectionStr = `http://35.185.150.221:3000/${this.password}`;
     console.log(connectionStr);
     this.http.get(connectionStr).subscribe(res => {
       const res_json = res.json();
